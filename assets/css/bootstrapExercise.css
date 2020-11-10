@@ -1,0 +1,19 @@
+.veggieText {
+    background-color: seagreen;
+    color: snow;
+    padding: 20px;
+}
+.riceText {
+    background-color: tan;
+    color: white;
+    padding: 10px;
+}
+.container-fluid .noMargin {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+.noMargin p {
+    background: teal;
+    color: white;
+    
+}
