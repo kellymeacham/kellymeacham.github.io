@@ -14,6 +14,47 @@
 }
 .noMargin p {
     background: teal;
-    color: white;
-    
+    color: white;  
 }
+.saladRow {
+    background-color: tomato;
+}
+.saladRow p {
+    padding: 5px;
+}
+.gridExercise {
+    background-color: lightseagreen;
+    margin: 30px;
+}
+.parentTarget {
+    height: 200px;
+    background-color: lightslategray;
+    margin: 10px;
+}
+.parentTarget div {
+    height: 50px;
+    background-color: palegreen;
+    border: 1px solid;
+}
+.gridExercise .height100 {
+    height: 100px;
+    background-color: palevioletred;
+    border: 1px solid black;
+}
+.height100 div {
+    height: 50px;
+    background-color: darkseagreen;
+    border: 1px solid black;
+}
+.activity div {
+    height: 100px;
+}
+.red {
+    background-color: firebrick;
+    border: 1px solid black;
+}
+.purple {
+    background-color: lavender;
+    border: 1px solid black;
+}
+

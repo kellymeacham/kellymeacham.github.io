@@ -1,0 +1,56 @@
+.myResume {
+    color: rgb(2, 57, 102);
+    
+}
+.topRow {
+    background-color: rgb(194, 233, 233);
+    border-bottom: rgb(2, 57, 102);
+    vertical-align: middle;
+    border-bottom-style: dotted;
+    padding: 20px 50px !important;
+    margin: 50px 10% 10px;
+
+}
+.profilePic {
+    height: 250px;
+    width: auto;
+    padding: 10px;
+    padding-left: 10%;
+    float: inherit;
+}
+.img { 
+    vertical-align: middle !important;
+    border-style: none;
+}
+.nameTitle h3 {
+    display: block;
+    float: left;
+    border-bottom:  10px;
+}
+.nameTitle h1 {
+    display: block;
+    float: left;
+}
+.nameTitle p {
+    padding-right: 30%;
+}
+.middleRow {
+    padding: 20px 50px;
+    border: 2px;
+    margin: 20px 10%;
+}
+img.small {
+    height: 60%;
+}
+.bottomRow {
+    background-color: rgb(194, 233, 233);
+    border-bottom: rgb(2, 57, 102);
+    vertical-align: middle;
+    border-top-style: dotted;
+    padding: 50px 100px !important;
+    margin: 50px 10% 10px;
+}
+.icon {
+    height: 30px;
+    width: auto;
+}
