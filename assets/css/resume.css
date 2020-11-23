@@ -16,10 +16,10 @@
     width: auto;
     padding: 10px;
     padding-left: 10%;
-    float: inherit;
+    float: right;
 }
 .img { 
-    vertical-align: middle !important;
+    vertical-align: middle;
     border-style: none;
 }
 .nameTitle h3 {
@@ -53,4 +53,7 @@ img.small {
 .icon {
     height: 30px;
     width: auto;
+}
+.experience {
+    padding-bottom: 20px !important;
 }
