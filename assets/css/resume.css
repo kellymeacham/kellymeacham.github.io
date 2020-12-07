@@ -16,7 +16,7 @@
     width: auto;
     padding: 10px;
     padding-left: 10%;
-    float: right;
+    
 }
 .img { 
     vertical-align: middle;
@@ -55,5 +55,5 @@ img.small {
     width: auto;
 }
 .experience {
-    padding-bottom: 20px !important;
+    padding: 15px;
 }

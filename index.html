@@ -1,113 +1,303 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio Page</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/homePage.css">
-    <!-- bootstrap stylesheet -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Page</title>
+  <!-- favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  <!-- custom css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/resume.css">
+  <!-- bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+
 </head>
 
 
-<body style="background-image: url(assets/images/kmLogoblue.png);"></body>
-    <!-- <h1>This will be my future portfolio website</h1>
-    <p>there will more projects display here really soon!!!</p>
-    <h3 align="center">hello there</h3>
-    <p align="center">My name is Kelly</p>
-    <a href="https://www.google.com/" target="_blank">
-    <h2>go to google</h2>
-    </a>
-    <a href="mailto:kellymeacham@hotmail.com">
-        <p>email me</p>
-    </a>
+<body id="goToTop" data-spy="scroll" data-offset="0" data-target="goToTop">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html"><img class="icon" img src="assets/images/kmlogo_72.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <h1>to do list</h1>
-    <ol>
-        <li>cook dinner</li>
-        <li>buy milk</li>
-        <li>feed the dog</li>
-    </ol>
-    
-    this is an unoredered list
-    <ul style="list-style-type: square;">
-        <li>cook dinner</li>
-        <li>buy milk</li>
-        <li>feed the dog</li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
 
-    <img width="300" height="auto" src="https://natashaskitchen.com/wp-content/uploads/2020/05/Vanilla-Cupcakes-3.jpg" alt="cupcake">
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
     
-    <img width="300" height="auto" src="assets/images/myAvatar.jpg"> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cssTraining.html">CSS Training</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="bootstrapExercise.html">Bootstrap Training</a>
-              </li>
-            <!--<li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+      <!-- card one TrackRX-->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="assets/images/trackRxProduct@72x.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TrackasauRx</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#trackRxModal">See More</a>
+          </div>
+        </div>
+        <div class="modal fade" id="trackRxModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">TrackasauRx</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
               </div>
-            </li> !
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    <h1>Student Bio</h1>
-    <h3 class="pinkText">Kelly Meacham</h3>
-    <img width="auto" height="200" src="assets/images/myAvatar.jpg" alt="">
-    <p>I am a UX Designer</p>
+              <div class="modal-body">
 
-    <div id="firstBox">
-        <h3>First Box</h3>
-        <div class="secondBox">
-            <p>Second Box</p>
+                <div id="carouseltrackRx" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouseltrackRx" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouseltrackRx" data-slide-to="1"></li>
+                    
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/images/trackRxProduct@72x.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/trackRxUseModel@72x.png" class="d-block w-100" alt="...">
+                    </div>
+                    
+                  </div>
+                  <a class="carousel-control-prev" href="#carouseltrackRx" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouseltrackRx" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+        
+      <!-- card two pasaroon project-->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="assets/images/pasaroonBrand@72x.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pasaroon Brand Identity</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#pasaroonModal">See More</a>
+          </div>
+        </div>
+        <div class="modal fade" id="pasaroonModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Pasaroon Brand Identity</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div id="carouselPasaroon" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselPasaroon" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselPasaroon" data-slide-to="1"></li>
+                    <li data-target="#carouselPasaroon" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/images/pasaroonBrand@72x.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/pasaroonMacMockup.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/pasaroonBillboardMockup.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselPasaroon" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselPasaroon" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- card three ability project-->
+        <div class="col-md-6">
+          <div class="card">
+            <img src="assets/images/abilityPoster_mockup.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Disability Awareness Event</h5>
+              <p class="card-text"></p>
+              <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#abilityModal">See More</a>
+            </div>
+          </div>
+          <div class="modal fade" id="abilityModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Disability Awareness Event</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+  
+                  <div id="carouselAbility" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselAbility" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselAbility" data-slide-to="1"></li>
+                      <li data-target="#carouselAbility" data-slide-to="2"></li>
+                      <li data-target="#carouselAbility" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/images/abilityPintrstMkup.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/abilityFacebookMockup.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/abilityInfoPoster_mockup.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/abilityPoster_mockup.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselAbility" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselAbility" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card four poster project-->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="assets/images/officeSpacePoster.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Movie Poster Series</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#posterModal">See More</a>
+          </div>
+        </div>
+        <div class="modal fade" id="posterModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Movie Poster Series</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/images/officeSpacePoster.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/waitingPoster.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/images/tommyBoyPoster.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      </div>
+
+      <div class="footer">
+        <button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="top"
+          title="Tooltip on top">
+          Scroll to top
+        </button>
+      </div>
     </div>
 
-    <div id="thirdbox">
-        <p>this is mythird box</p>
-    </div>
+    <!-- boostrap script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
 
 
+    <script>
+      $(document).ready(function () {
+        //tool tip
+        $('[data-toggle="tooltip"]').tooltip();
+        $("a.toTop").on('click', function (event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function () {
+              window.location.hash = hash;
+            });
+          }
+        });
+      })
+    </script>
 </body>
-
-<!-- boostrap script -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
-</script>
 
 </html>
